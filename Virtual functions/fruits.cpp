@@ -13,6 +13,9 @@ public:
         else
             cout << "bad" << endl;
     }
+    void hello();
+    // virtual void hello();
+    // virtual void hello() = 0;
 };
 
 class Apple : public Fruit
